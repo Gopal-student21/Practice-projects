@@ -32,6 +32,7 @@
     cursor: pointer;
     margin: 10px;
 }
+/* for right align the buttons of the calculator */
 form .display{
     display: flex;
     justify-content:flex-end;
@@ -50,6 +51,7 @@ form .display input{
 form input.equal{
     width: 42%;
 }
+/* for the better looks of sign buttons */
 form input.sign{
     color: rgb(41, 202, 255);
     filter: drop-shadow(5px 5px 10px rgb(41, 202, 255)) ;

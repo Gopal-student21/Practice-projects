@@ -7,13 +7,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- this is the container which holds the calculator -->
     <div class="container">
         <div class="calculator">
             <form>
+                <!-- this div is for the screen -->
                 <div class="display">
                     <input type="text" name="display">
                 </div>
                 <div>
+                    <!-- simply using a simple level inline javascript in all the input tags for the logic  -->
                     <input type="button" value="AC"class="sign"onclick="display.value = ''">
                     <input type="button" value="DE"class="sign"onclick="display.value = display.value.toString().slice(0,-1)">
                     <input type="button" value="."class="sign"onclick="display.value += '.'">
