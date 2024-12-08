@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif ;
+}
+body{
+    background-color:crimson;
+}
+.card{
+    background-color: #ccc;
+    width: 700px;
+    padding: 20px;
+    line-height: 20px;
+    margin: 20px;
+}
+/* it use to select the scrollbar of the page in the website and design it accourding to yourself */
+::-webkit-scrollbar{
+    background-color:transparent;
+    width: 20px;
+}
+/* this is the decoration thumb of the scrollbar which moves up and down */
+::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(to top, #21D4FD,#B721FF);
+    border-radius: 20px;
+}
