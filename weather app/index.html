@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- this the main card of the body which is container of all the elements -->
+    <div class="card">
+        <!-- search buttons and input for weather  -->
+        <div class="search">
+            <input type="text" placeholder="search city" id="input">
+            <button id="btn"><img src="images/search.png" alt=""></button>
+        </div>
+        <!-- this is for the error message if the users input wrong location or invalid location -->
+        <div class="error">
+            <p>Invalid location</p>
+        </div>
+     <!-- this class shows the details of the weather -->
+        <div class="weather">
+            <img src="images/rain.png" class="weather-icon">
+            <h1 id="temp">22°C</h1>
+            <h2 class="city">Kathmandu</h2>
+            <div class="details">
+                <!-- for humidity and wind speed -->
+                <div class="col">
+                    <img src="images/humidity.png">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png">
+                    <div>
+                        <p class="wind">16km/hr</p>
+                        <p>Wind speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+<script src="app.js"></script>
+</body>
+
+</html>
