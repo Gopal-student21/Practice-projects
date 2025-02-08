@@ -1,1 +1,1 @@
-This the practice projest of my css.
+These are the front-end projects .
